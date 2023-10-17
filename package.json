@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "daisyui": "^3.9.2",
+    "next": "^13.5.4",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-icons": "^4.11.0",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",

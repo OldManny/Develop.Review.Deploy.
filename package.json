@@ -11,10 +11,12 @@
   "dependencies": {
     "daisyui": "^3.9.2",
     "next": "^13.5.4",
+    "nodemailer": "^6.9.6",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-syntax-highlighter": "^15.5.0",
+    "sass": "^1.69.4"
   },
   "devDependencies": {
     "autoprefixer": "latest",

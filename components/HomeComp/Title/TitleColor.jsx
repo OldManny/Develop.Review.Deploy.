@@ -20,7 +20,7 @@ const TitleColor = () => {
   }, []);
 
   const wordElements = words.map((word, index) => (
-    <span key={index} className={`${index === currentWordIndex ? customColors[currentColorIndex] : defaultColor} text-7xl font-extrabold transition-colors duration 700 ease-in-out`}>
+    <span key={index} className={`${index === currentWordIndex ? customColors[currentColorIndex] : defaultColor} text-6xl md:text-7xl font-extrabold transition-colors duration 700 ease-in-out`}>
       {word}
     </span>
   ));

@@ -1,14 +1,21 @@
 "use client";
 import { webDevelopment, appDevelopment, homePageEnd } from '@components/HomeComp/HomeCards/dataCard';
-import { Title, TechIcons, Line, LineBubble, DataMapper, CenteredText } from '@components/HomeComp';
+import { TopHeader, TechIcons, Line, LineBubble, DataMapper, CenteredText } from '@components/HomeComp';
 import Button from '@components/Button';
 import BackToTop from '@components/BackToTop';
 import { BiSolidUpArrow } from "react-icons/bi";
 
 const Home = () => {
     return (
-        <div>
-            <Title />
+        <div className="">
+            {/* Top Header */}
+            <TopHeader />
+
+            {/* Title */}
+            {/* <Title /> */}
+            
+            {/* Tech Icons */}
+
             <TechIcons />
             
             {/* Web Development Section */}
@@ -35,15 +42,15 @@ const Home = () => {
             <Line />
 
             {/* End Text */}
-            <CenteredText as="h2" className="py-12 text-base text-slate-500">
+            <CenteredText as="h2" className="">
                 {homePageEnd.content}
             </CenteredText>
-            <CenteredText as="h2" className="pt-12 text-slate-500 font-semibold">
+            <CenteredText as="h2" className="pt-16 text-slate-500 dark:text-slate-400 font-semibold">
                 {homePageEnd.end}
             </CenteredText>
             
             {/* Home Buttons */}
-            <div className="flex pb-60 button-wrapper">
+            <div className="flex mt-16 pb-60 button-wrapper">
                 <Button 
                     label="Contact" 
                     href="/contact" 
@@ -52,8 +59,8 @@ const Home = () => {
                 />
 
                 <Button 
-                    label="Source Code" 
-                    href="https://github.com/your_repo_link" 
+                    label="Resume" 
+                    href="./about" 
                     className="home-btn home-btn-source"
                 />
             </div>   

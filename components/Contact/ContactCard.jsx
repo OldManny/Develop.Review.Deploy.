@@ -56,14 +56,19 @@ const ContactCard = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen px-4 py-28 md:py-0">
-      <div className="w-full max-w-md">
+    <div className="">
+    <div className="flex w-full justify-center pt-24 mb-12 md:pt-48 md:mb-28 ">
+        <h1 className="text-slate-500 dark:text-slate-400 text-3xl md:text-4xl font-semibold">Get in touch</h1>
+    </div>
+    <div className="flex justify-center min-h-screen">
+      <div className="w-full max-w-lg mb-20">
         <ContactForm 
           formState={formState}
           handleChange={handleChange}
           handleSubmit={handleSubmit}
         />
       </div>
+    </div>
     </div>
   );
 };

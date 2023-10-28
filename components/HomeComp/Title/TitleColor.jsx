@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const customColors = ['text-sky-700', 'text-teal-700', 'text-purple-700'];
-const defaultColor = 'text-slate-700';
+const defaultColor = 'text-slate-500';
 const words = ['Develop.', ' Review.', ' Deploy.'];
 
 const TitleColor = () => {
@@ -12,7 +12,7 @@ const TitleColor = () => {
         const timer = setInterval(() => {
         setCurrentColorIndex((prevIndex) => (prevIndex === customColors.length - 1 ? 0 : prevIndex + 1));
         setCurrentWordIndex((prevIndex) => (prevIndex === words.length - 1 ? 0 : prevIndex + 1));
-        }, 2000);
+        }, 3000);
 
         return () => {
             clearInterval(timer);
@@ -20,7 +20,7 @@ const TitleColor = () => {
     }, []);
 
     const wordElements = words.map((word, index) => (
-        <span key={index} className={`${index === currentWordIndex ? customColors[currentColorIndex] : defaultColor} text-6xl md:text-7xl font-extrabold transition-colors duration 700 ease-in-out`}>
+        <span key={index} className={`${index === currentWordIndex ? customColors[currentColorIndex] : defaultColor} text-5xl md:text-7xl font-extrabold transition-colors duration 700 ease-in-out`}>
             {word}
         </span>
     ));

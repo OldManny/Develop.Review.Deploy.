@@ -31,13 +31,21 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden;     /* Hide horizontal scrollbar */
     margin: 0;
     padding: 0;
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background: #e9ecef;
 }
+/*****************@ Dark/Light Mode @******************/
+.dark body {
+    background: #1f1f2d;
+    /* background-color: gray; */
+    /* color: white; */
+}
+
+
 
 /* CSS for the container */
 .flex-container {
@@ -70,22 +78,22 @@ body {
 /*********** Desktop Engineering *************/
 
 .line-app {
-left: 50%;
-transform: translateX(0); 
-height: 11rem; /* Set a minimum height for the line */
-width: 0.08rem; /* Corresponds to before:w-0.5 in Tailwind CSS */
-background: linear-gradient(to bottom, transparent, hsla(220, 78%, 29%, 1) 100%);
+    left: 50%;
+    transform: translateX(0); 
+    height: 11rem; /* Set a minimum height for the line */
+    width: 0.08rem; /* Corresponds to before:w-0.5 in Tailwind CSS */
+    background: linear-gradient(to bottom, transparent, hsla(220, 78%, 29%, 1) 100%);
 }
 
 .rounded-ball-app {
-width: 2.5rem; /* Adjust the size as needed */
-height: 2.5rem; /* Adjust the size as needed */
-background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
-border-radius: 50%;
-position: relative;
-bottom: -6rem; /* Align to the bottom of the parent container */
-transform: translateX(-50%); /* Center horizontally */
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 2.5rem; /* Adjust the size as needed */
+    height: 2.5rem; /* Adjust the size as needed */
+    background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    border-radius: 50%;
+    position: relative;
+    bottom: -6rem; /* Align to the bottom of the parent container */
+    transform: translateX(-50%); /* Center horizontally */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /************* Middle line & bubble **************/
@@ -140,12 +148,17 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   .contact-form {
     max-width: 600px;
     margin: 8px auto;
-    background-color: #fff;
+    background-color: white;
     padding: 30px;
     border-radius: 30px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    /* position: relative; */
+    position: relative;
 }
+
+/* [data-theme="dark"] contact-form {
+    background-color: gray;
+    color: white;
+} */
 
 
 .contact-form label {
@@ -174,11 +187,15 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
 .home-btn {
     /* display: inline-block; */
-    padding: 20px 70px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
+    width: 300px;
+    height: 70px;
     border-radius: 15px;
     font-size: 20px;
     /* font-weight: bold; */
-    text-align: center;
     transition: transform 0.1s, box-shadow 0.1s;
     cursor: pointer;
     /* Colors */
@@ -218,7 +235,6 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transform: translateY(2.5px);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
   }
-  
 
 
 /*****************@ Media Styles @******************/
@@ -248,9 +264,21 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             
         margin: 0;
     }
+    .home-btn{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+     
+    }
 }
 
-
+/* Title Landscape */
+@media (orientation: landscape) {
+    .landscape\:pt-20 {
+      padding-top: 5rem; /* 20 units in Tailwind (assuming 1 unit = 0.25rem) */
+    }
+  }
+  
 
 
 /* Tailwind Styles */

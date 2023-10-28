@@ -2,7 +2,7 @@ import InputField from './InputField';
 import TextArea from './TextArea';
 
 const ContactForm = ({ formState, handleChange, handleSubmit }) => (
-    <form onSubmit={handleSubmit} className="contact-form bg-slate-200">
+    <form onSubmit={handleSubmit} className="contact-form bg-slate-200 dark:bg-gray-950">
         <InputField 
             label="Name" 
             name="name" 

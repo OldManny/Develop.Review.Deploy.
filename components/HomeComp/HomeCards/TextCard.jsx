@@ -6,8 +6,8 @@ const TextCard = ({ title, text, icon: IconComponent, className }) => {
             <div className="pb-2">
                 {IconComponent && <IconComponent size={36} color="#a855f7" />}        
             </div>
-            <h2 className="text-slate-600 text-base md:text-lg  font-semibold mb-5">{title}</h2>
-            <p className="text-slate-500 text-sm md:text-base">{text}</p>
+            <h2 className="text-slate-600 dark:text-slate-400 text-base md:text-lg  font-semibold mb-5">{title}</h2>
+            <p className="text-slate-500 dark:text-slate-400 text-sm md:text-base">{text}</p>
         </div>
     );
 };

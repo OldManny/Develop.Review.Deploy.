@@ -31,7 +31,7 @@ async function fetchData(url) {
     textCardData: {
         icon: FaCentos,
         title: "Asynchronous Data Retrieval",
-        text: "In the era of dynamic web content, efficiently fetching and processing data is paramount. This snippet showcases the use of modern async/await syntax for cleaner, more readable asynchronous code. It incorporates error handling, ensuring that network hiccups or unexpected issues don't derail the user experience.",
+        text: "This snippet showcases a streamlined approach to web data fetching using JavaScript's 'async/await'. It allows for requesting data from a URL while handling any delays or errors gracefully, ensuring a smooth web experience.",
     },
 },
 {
@@ -62,7 +62,7 @@ async function fetchData(url) {
     textCardData: {
         icon: PiPaintBrushLight,
         title: "The Gradient Button with Interactive Lure",
-        text: "This CSS design showcases a captivating button enhanced by a gradient flow, transitioning from a deep blue to a lively purple. What elevates its appeal is the hover effect: the button subtly expands, inviting users for a click. A clear demonstration of the versatility and charm CSS transitions and gradients offer.",
+        text: "Featuring a seamless gradient transition from blue to purple, this button design captures attention. Its interactive essence is highlighted by a subtle expansion upon hovering, showcasing how CSS can bring life and motion to web designs.",
         },
 },
 {
@@ -101,7 +101,7 @@ app.listen(3000, () => {
     textCardData: {
         icon: VscServerProcess,
         title: "Rate Limiter Middleware",
-        text: "In a time when server protection against malicious or unintentional overuse is paramount, rate limiting emerges as a cardinal feature. This sample succinctly illustrates an Express middleware that imposes a rudimentary rate limit: if a client exceeds five requests, they're promptly halted with an HTTP 429 status. This showcases not only a protective measure against potential denial-of-service attacks but also underlines a developer's proactive approach to server health and resource optimization.",
+        text: "Showcasing a basic but essential server safeguard, this script uses Express to limit users to five requests. Exceeding this limit triggers an HTTP 429 status, a proactive step towards ensuring server health and mitigating overuse risks.",
         },
     },
 {
@@ -140,7 +140,7 @@ export default ThemeButton;
     textCardData: {
         icon: SiReactquery,
         title: "Toggle Theme Button",
-        text: "Delve into the essence of React's functional components with this theme switcher. Utilizing the 'useState' hook, this component effortlessly alternates between light and dark modes, exemplifying the reactive nature of the framework. The concise code effectively highlights the transformative power of state management in React, seamlessly enhancing user experience.",
+        text: "A prime example of React's reactive capabilities, this theme toggle component cleverly utilises the useState hook. It allows for a swift and smooth transition between light and dark themes, reflecting the dynamic nature of state management in React.",
     },
 },
 ]
@@ -170,7 +170,7 @@ print(fibonacci(10))
     textCardData: {
         icon: BsJournalCode,
         title: "Fibonacci Series with Memoization in Python",
-        text: "Beyond simple recursion lies the transformative power of memoization, a technique pivotal to enhancing algorithmic efficiency. This Fibonacci sequence implementation optimally reduces time complexity by circumventing repeated calculations, manifesting a nuanced appreciation for high-performance computational solutions.",
+        text: "By incorporating memoization, this Python function for calculating the Fibonacci sequence exemplifies high-performance computing. It minimises computational overhead by remembering past results, making the recursive process much faster and more efficient.",
     },
 },
 {
@@ -204,14 +204,14 @@ int main() {
     textCardData: {
         icon: TbCodeDots,
         title: "Smart Pointer Usage",
-        text: "As C++ evolved, so did its memory management paradigms. The introduction of smart pointers heralded a new era of robustness. When one harnesses 'std::unique_ptr', like in the code above, it's not just about automated memory management—it's a tacit acknowledgment of the importance of ownership semantics in modern C++. Using smart pointers is not just technical—it's a statement about code quality, resilience, and the developer's commitment to modern best practices.",
+        text: "The implementation of 'std::unique_ptr' in this example highlights the modern approach to memory management in C++. It showcases how smart pointers ensure automatic and secure resource deallocation, embodying best practices in contemporary C++ coding.",
     },
 },
 {
     index:3,
     title: "C#",
     introText: [
-        "Amidst the diverse tapestry of programming languages, C# stands out for its streamlined development and robustness. Integrated with the .NET ecosystem, it champions versatile applications while emphasizing code clarity and maintainability.",
+        "Amidst the diverse tapestry of programming languages, C# stands out for its streamlined development and robustness. Integrated with the .NET ecosystem, it champions versatile applications while emphasising code clarity and maintainability.",
         // ... more lines
         ],
     codeCardData: {
@@ -238,7 +238,7 @@ public class WebService {
     textCardData: {
         icon: TbDeviceIpadHorizontalCode,
         title: "Asynchronous Programming with async and await",
-        text: "While the digital world thrives on immediacy, C# took a groundbreaking stride with its 'async' and 'await' semantics. This example doesn't merely highlight asynchronous web requests. It manifests the developer's cognizance of the critical balance between responsiveness and performance. Leveraging asynchronous programming isn't just about reducing wait times—it's a deliberate strategy to enhance user experience while optimizing resource utilization, showcasing a developer's pursuit of both user delight and operational efficiency.",
+        text: "The use of 'async' and 'await' in this C# code for fetching web data highlights a sophisticated approach to handling network operations. It's a perfect blend of maintaining application responsiveness and efficient data processing, critical for modern software development.",
     },
 },
 {
@@ -266,13 +266,13 @@ FROM
     textCardData: {
         icon: BsDatabaseCheck,
         title: "Window Functions and Ranking",
-        text: "At the heart of data analysis lies the quintessential need to segment, rank, and dissect datasets based on varying criteria. Window functions in SQL provide a powerful toolkit for this. The example isn’t just a demonstration of ranking employees by salary within their respective departments. It’s a testament to the developer’s skill in understanding the intricate of partitioning data while preserving the context. By using 'RANK()', this query showcases the art of drawing actionable insights from seemingly mundane data sets.",
+        text: "Employing the 'RANK()' window function within department-based partitions, this SQL query masterfully ranks employees by salary. It’s a clear example of how to leverage SQL for detailed, context-rich analysis, providing valuable insights into organisational salary structures.",
     },
 },
 ]
 
 const homePageEnd = {
-    content: "In the ever-evolving tapestry of the digital realm, I carve out my niche by blending creativity with functionality. This portfolio stands as a testament to my journey, where each project is a chapter of dedication, insight, and passion.",
+    content: "",
     end:  "Let's build the future together.",
 };
 

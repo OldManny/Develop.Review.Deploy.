@@ -19,7 +19,7 @@ const DataMapper = ({ data }) => {
                     {/* Centered Intro Text */}
                     <div className={item.title ? "pt-6 md:pb-12" : "pt-32 md:pb-12"}>
                         {item.introText.map((line, lineIndex) => (
-                            <CenteredText as="h2" className="md:text-base text-slate-500 font-light" key={lineIndex}>{line}</CenteredText>
+                            <CenteredText as="h2" className="md:text-base text-slate-500 dark:text-slate-400" key={lineIndex}>{line}</CenteredText>
                         ))}
                     </div>
 

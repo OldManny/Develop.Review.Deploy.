@@ -5,8 +5,9 @@ import { DiJavascript1 } from 'react-icons/di';
 
 const TechIcons = () => {
     return (
-        <div className="max-w-xl mx-auto pb-28">
-            <div className="flex flex-wrap justify-center items-center space-x-5 md:space-x-7 space-y-2 pb-8">
+        <div className="max-w-xl mx-auto pt-28 pb-28">
+            <span className="text-md tracking-widest inset-0 flex items-center rounded-full justify-center text-slate-500 dark:text-slate-400 mb-36">HARNESSING</span>
+            <div className="flex flex-wrap justify-center items-center space-x-5 md:space-x-7 space-y-2 pb-8  text-slate-500">
                 
                 {/* Python */}
                 <div className="pb-4"> {/*'group relative' - Cut the e as this class causes the navbar artifacts */}

@@ -4,41 +4,34 @@ import React, { useState, useEffect } from "react";
 import Logo from "./Logo";
 import NavMenu from "./NavMenu";
 import MobileToggle from "./MobileToggle";
+import ThemeSwitcher from "@components/ThemeSwitcher";
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     const [isVisible, setIsVisible] = useState(true);  // Navbar is initially visible
     const [lastScrollPos, setLastScrollPos] = useState(0);
   
-    useEffect(() => {
-        const handleScroll = () => {
+    const handleScroll = () => {
         const currentScrollPos = window.scrollY;
-  
-        // Handle the scenario for the top of the page
         if (currentScrollPos <= 5) {
             setIsVisible(true);
             return;
         }
-  
-        if (currentScrollPos > lastScrollPos) {
-            // Scrolling down
+        else if (currentScrollPos > lastScrollPos) {
             setIsVisible(false);
         } else {
-          // Scrolling up
             setIsVisible(true);
         }
-  
-        // Update the last scroll position
         setLastScrollPos(currentScrollPos);
-        };
-  
-        // For closing navbar when clicked outside
-        const handleClickOutside = (event) => {
-            if (navbar && !event.target.closest("nav")) {
-                setNavbar(false);
-            }
-        };
-        
+    };
+    
+    const handleClickOutside = (event) => {
+        if (navbar && !event.target.closest("nav")) {
+            setNavbar(false);
+        }
+    };
+
+    useEffect(() => {
         // Attach the event listeners
         window.addEventListener("scroll", handleScroll);
         document.addEventListener("click", handleClickOutside);
@@ -48,7 +41,9 @@ const Navbar = () => {
             window.removeEventListener("scroll", handleScroll);
             document.removeEventListener("click", handleClickOutside);
         };
-    }, [lastScrollPos, navbar]);  // Add navbar as a dependency
+    }, [lastScrollPos, navbar]);
+    
+    
   
     const menu = [
       // { name: "Home", url: "/" },
@@ -58,26 +53,37 @@ const Navbar = () => {
         dropdown: [
             { name: "Algo Project", url: "" },
             { name: "Passport & Node", url: "" },
-            { name: "...", url: "/contact" },
+            { name: "...", url: "./contact" },
         ],
       },
-      { name: "About", url: "/" },
-      { name: "Contact", url: "../contact" },
+      { name: "About", url: "./about" },
+      { name: "Contact", url: "./contact" },
     ];
 
     return (
         <nav className="w-full fixed bg-gray-700 shadow-2xl z-10 transition-transform duration-300 ease-in-out" style={{ transform: isVisible ? 'translateY(0)' : 'translateY(-100%)' }}>
-            <div className="justify-between md:h-16 px-4 mx-auto lg:max-w-9xl md:items-center md:flex md:px-8">
-                <div>
-                    <div className="flex items-center justify-between py-4 md:py-9 md:block">
+            <div className="px-4 mx-auto lg:max-w-9xl md:items-center md:flex md:px-8">
+                <div className="flex items-center justify-between w-full py-4 md:py-5">
+                    {/* Logo */}
+                    <div>
                         <Logo />
+                    </div>
+    
+                    {/* ThemeSwitcher and MobileToggle */}
+                    <div className="flex items-center">
+                        <div className="mr-8 md:mr-14 mt-2">
+                            <ThemeSwitcher />
+                        </div>
                         <MobileToggle navbar={navbar} setNavbar={setNavbar} />
                     </div>
                 </div>
+    
+                {/* NavMenu */}
                 <NavMenu menu={menu} navbar={navbar} />
             </div>
         </nav>
     );
+    
 }
 
 export default Navbar;

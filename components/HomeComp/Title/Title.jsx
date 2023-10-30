@@ -1,5 +1,5 @@
 import React from 'react';
-import TitleColor from '@components/HomeComp/Title/TitleColor';
+import TitleColor from '/components/HomeComp/Title/TitleColor';
 
 const Title = () => {
     return (

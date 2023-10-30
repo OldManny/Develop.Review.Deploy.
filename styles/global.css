@@ -29,23 +29,29 @@
 
 /* Custom Styles */
 
-body {
+
+
+/*****************@ Dark/Light Mode @******************/
+
+.light body {
     font-family: "Poppins", sans-serif;
-    overflow-x: hidden;     /* Hide horizontal scrollbar */
     margin: 0;
     padding: 0;
     background-size: cover;
     background-attachment: fixed;
     background: #e9ecef;
 }
-/*****************@ Dark/Light Mode @******************/
+
 .dark body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
     background: #1f1f2d;
     /* background-color: gray; */
     /* color: white; */
 }
-
-
 
 /* CSS for the container */
 .flex-container {
@@ -155,10 +161,6 @@ body {
     position: relative;
 }
 
-/* [data-theme="dark"] contact-form {
-    background-color: gray;
-    color: white;
-} */
 
 
 .contact-form label {

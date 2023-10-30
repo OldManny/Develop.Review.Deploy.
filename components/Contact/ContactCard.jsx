@@ -57,11 +57,11 @@ const ContactCard = () => {
 
   return (
     <div className="">
-    <div className="flex w-full justify-center pt-24 mb-12 md:pt-48 md:mb-28 ">
+    <div className="flex w-full justify-center pt-24 mb-12 md:pt-48 md:mb-28">
         <h1 className="text-slate-500 dark:text-slate-400 text-3xl md:text-4xl font-semibold">Get in touch</h1>
     </div>
     <div className="flex justify-center min-h-screen">
-      <div className="w-full max-w-lg mb-20">
+      <div className="w-full max-w-lg mb-20 px-2">
         <ContactForm 
           formState={formState}
           handleChange={handleChange}

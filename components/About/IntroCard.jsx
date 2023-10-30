@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Profile from "@/public/Profile.jpg";
+import Profile from "/public/Profile.jpg";
 import { FaGithub, FaLinkedin, FaRegEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const IntroCard = ({ className }) => {
@@ -8,13 +8,12 @@ const IntroCard = ({ className }) => {
         <div className={`w-full flex-grow bg-transparent p-4 lg:p-8 rounded-3xl shadow-md mt-8 lg:mt-0 transition-all duration-300 shadow-xl ${className}`}>
 
             {/*Image Section*/}
-            <div className="flex items-center justify-center relative w-44 md:w-44 h-44 md:h-44 mx-auto overflow-hidden rounded-full transition-transform duration-500 transform -mt-28 md:-mt-36">
+            <div className="flex items-center justify-center relative w-44 h-44 mx-auto overflow-hidden rounded-full transition-transform duration-500 transform -mt-28 md:-mt-36">
                 <Image 
                     src={Profile}
                     alt="Profile"
                     fill
-                    objectFit="cover"
-                />
+                    style={{objectFit:"cover"}}                />
             </div>
 
             {/* Name Section + Job Title */}

@@ -1,8 +1,8 @@
 // DataMapper.js
 import React from 'react';
-import {Line, CenteredText } from '@components/HomeComp';
-import CodeCard from '@components/HomeComp/HomeCards/CodeCard';
-import TextCard from '@components/HomeComp/HomeCards/TextCard';
+import {Line, CenteredText } from '/components/HomeComp';
+import CodeCard from '/components/HomeComp/HomeCards/CodeCard';
+import TextCard from '/components/HomeComp/HomeCards/TextCard';
 
 const DataMapper = ({ data }) => {
     return (

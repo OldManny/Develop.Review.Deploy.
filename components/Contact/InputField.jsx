@@ -4,7 +4,7 @@ const InputField = ({ label, name, type, value, onChange }) => (
             {label}
         </label>
         <input
-            className="bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-300 dark:border-blue-400"
+            className="bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-300 dark:border-transparent"
             name={name}
             type={type}
             required

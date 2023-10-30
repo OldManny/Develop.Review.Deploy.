@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
-import IntroCard from '@/components/About/IntroCard';
-import MainCard from '@/components/About/MainCard';
-import BackToTop from '@components/BackToTop';
+import IntroCard from '/components/About/IntroCard';
+import MainCard from '/components/About/MainCard';
+import BackToTop from '/components/BackToTop';
 
 const About = () => {
   return (

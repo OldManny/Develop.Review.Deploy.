@@ -4,7 +4,7 @@ const TextArea = ({ label, name, value, onChange }) => (
             {label}
         </label>
         <textarea
-            className="bg-white shadow-md dark:bg-gray-800 text-gray-500 dark:text-gray-300 dark:border-blue-400"
+            className="bg-white shadow-md dark:bg-gray-800 text-gray-500 dark:text-gray-300 dark:border-transparent"
             name={name}
             required
             value={value}

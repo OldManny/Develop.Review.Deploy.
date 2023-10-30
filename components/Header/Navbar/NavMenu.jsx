@@ -12,7 +12,7 @@ const NavMenu = ({ menu, navbar }) => {
                         {dropdown ? (
                             <Dropdown name={name} dropdownItems={dropdown} />
                         ) : (
-                            <Link href={url} className="text-sm">{name}</Link>
+                            <Link href={url} className="">{name}</Link>
                         )}
                     </li>
                 ))}

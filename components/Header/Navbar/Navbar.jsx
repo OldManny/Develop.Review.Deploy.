@@ -4,7 +4,8 @@ import React, { useState, useEffect } from "react";
 import Logo from "./Logo";
 import NavMenu from "./NavMenu";
 import MobileToggle from "./MobileToggle";
-import ThemeSwitcher from "@components/ThemeSwitcher";
+import ThemeSwitcher from "/components/ThemeSwitcher";
+
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -51,14 +52,14 @@ const Navbar = () => {
         name: "Portfolio",
         url: "/",
         dropdown: [
-            { name: "Algo Project", url: "" },
-            { name: "Passport & Node", url: "" },
-            { name: "...", url: "./contact" },
+            { name: "Coming Soon", url: "" },
+            { name: "...", url: "" },
         ],
       },
       { name: "About", url: "./about" },
       { name: "Contact", url: "./contact" },
     ];
+    
 
     return (
         <nav className="w-full fixed bg-gray-700 shadow-2xl z-10 transition-transform duration-300 ease-in-out" style={{ transform: isVisible ? 'translateY(0)' : 'translateY(-100%)' }}>

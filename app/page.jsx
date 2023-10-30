@@ -1,8 +1,8 @@
 "use client";
 import { webDevelopment, appDevelopment, homePageEnd } from '@components/HomeComp/HomeCards/dataCard';
 import { TopHeader, TechIcons, Line, LineBubble, DataMapper, CenteredText } from '@components/HomeComp';
-import Button from '@components/Button';
-import BackToTop from '@components/BackToTop';
+import Button from '/components/Button';
+import BackToTop from '/components/BackToTop';
 import { BiSolidUpArrow } from "react-icons/bi";
 
 const Home = () => {

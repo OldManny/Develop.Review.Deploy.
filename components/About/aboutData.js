@@ -19,7 +19,7 @@ export const hobbies = [
 export const workExperience = [
     {
         index: 1,
-        title: "Quality Control Engineer",
+        title: "Quality Control Specialist",
         subtitle: "Metalconforme (contracted by Aptiv)",
         years: "2012-2022",
         description: [

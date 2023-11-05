@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 const SocialIcons = () => (
     <div className="flex space-x-4">
         <a 
-            href="https://www.linkedin.com/in/emanuel-undefined-4a44bb299/" 
+            href="https://www.linkedin.com/in/emanuel-florea-4a44bb299/" 
             target="_blank" 
             rel="noopener noreferrer" 
             aria-label="LinkedIn"

@@ -42,7 +42,7 @@ const IntroCard = ({ className }) => {
                 <a href="https://github.com/OldManny" className="mx-4" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="text-xl text-slate-500 inline-block" />
                 </a>
-                <a href="https://www.linkedin.com/in/emanuel-undefined-4a44bb299/" className="mx-4" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/emanuel-florea-4a44bb299/" className="mx-4" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="text-xl text-slate-500 inline-block" />
                 </a>
                 <a href="/contact" className="mx-4">

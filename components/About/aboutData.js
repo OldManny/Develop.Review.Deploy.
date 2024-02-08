@@ -21,7 +21,7 @@ export const workExperience = [
         index: 1,
         title: "Quality Control Specialist",
         subtitle: "Metalconforme (contracted by Aptiv)",
-        years: "2012-2022",
+        years: "2012-2019",
         description: [
             "• Established QC methods for automotive electrical parts and wiring, ensuring high standards of product quality.",
             "• Completed rigorous testing protocols on automotive harnesses, enhancing product reliability and safety.",
@@ -62,10 +62,10 @@ export const education = [
     {
         index:1,
         title: "University of Roehampton",
-        subtitle: "[BENG] Software Engineering",
+        subtitle: "[BSc] Computer Science",
         years: "2022 - Present",
         relevant: "Relevant Courses:",
-        courses: "Algorithms, Python, C++, C#, SQL, Operating Systems, Software Architecture and Design, Project Management."
+        courses: "Algorithms, Python, C++, C#, SQL, Operating Systems, Data Science, Artificial Intelligence."
     },
 
 ];

@@ -43,26 +43,23 @@ This portfolio website serves as an online resume and project showcase. The webs
 
 ## Screenshots
 
-### Home Page
-![Home Page](https://link-to-your-image/home.png)
-
-### Skills Section
-![Skills Section](https://link-to-your-image/skills.png)
-
-### JavaScript Example
-![JavaScript Example](https://link-to-your-image/js-example.png)
+### Home Page with Night Mode On (rest of the screenshots has Light Mode On)
+![Home Page](https://i.postimg.cc/FKSK9Xgk/Screenshot-2024-05-25-at-13-23-17.png)
 
 ### CSS Example
-![CSS Example](https://link-to-your-image/css-example.png)
+![CSS Example](https://i.postimg.cc/TwxbfgCM/Screenshot-2024-05-25-at-11-54-35.png)
 
-### Python Example
-![Python Example](https://link-to-your-image/python-example.png)
+### Desktop Engineering
+![Python Example](https://i.postimg.cc/jqptS79C/Screenshot-2024-05-25-at-11-54-50.png)
 
-### SQL Example
-![SQL Example](https://link-to-your-image/sql-example.png)
+### Footer
+![Footer](https://i.postimg.cc/sD5yQ2dm/Screenshot-2024-05-25-at-11-55-12.png)
+
+### About Page
+![About Page](https://i.postimg.cc/qvLTwZ7C/Screenshot-2024-05-25-at-11-55-51.png)
 
 ### Contact Section
-![Contact Section](https://link-to-your-image/contact.png)
+![Contact Section](https://i.postimg.cc/1z3Zjcg7/Screenshot-2024-05-25-at-11-56-11.png)
 
 
 ## Header images
@@ -94,6 +91,13 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/OldManny/Develop.Review.Deploy.git
 
+2. Install NPM packages
+   ```sh
+   npm install
+
+3. Run the development server
+   ```sh
+   npm run dev
 
 ## Usage
 

@@ -62,22 +62,18 @@ This portfolio website serves as an online resume and project showcase. The webs
 ![Contact Section](https://i.postimg.cc/1z3Zjcg7/Screenshot-2024-05-25-at-11-56-11.png)
 
 
-## Header images
+## Header Images
 
 Both images, Light and Dark, are from Unsplash and all the credit goes to:
 
-- Light Mode:
+- Light Mode: [Dominik Schröder](https://unsplash.com/photos/white-clouds-during-daytime-FIKD9t5_5zQ)
 
-Dominik Schröder - https://unsplash.com/photos/white-clouds-during-daytime-FIKD9t5_5zQ
-
-- Dark Mode:
-
-Elliott Engelmann - https://unsplash.com/photos/silhouette-of-mountain-DjlKxYFJlTc
+- Dark Mode: [Elliott Engelmann](https://unsplash.com/photos/silhouette-of-mountain-DjlKxYFJlTc)
 
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy and running follow these simple steps.
 
 
 ### Prerequisites

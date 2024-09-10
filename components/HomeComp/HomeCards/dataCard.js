@@ -9,8 +9,7 @@ const webDevelopment = [
 {
     index:1,
     introText: [
-        "Web development is like assembling a puzzle - each piece, a unique technology, coming together to form a bigger picture. It’s where creativity meets code, bringing ideas to life on screen.",
-        // ... more lines
+        "Bringing a website to life involves using various technologies, fitting them together to create a smooth, user-friendly experience. It's a balance of logic and creativity."
     ],
     codeCardData: {
         language: "javascript",
@@ -31,15 +30,14 @@ async function fetchData(url) {
     textCardData: {
         icon: FaCentos,
         title: "Asynchronous Data Retrieval",
-        text: "This snippet showcases a streamlined approach to web data fetching using JavaScript's 'async/await'. It allows for requesting data from a URL while handling any delays or errors gracefully, ensuring a smooth web experience.",
+        text: "This snippet shows a streamlined approach to web data fetching using JavaScript's 'async/await'. It allows for requesting data from a URL while handling any delays or errors gracefully."
     },
 },
 {
     index:2,
     title: "Cascading Style Sheets",  // New optional field
     introText: [
-        " CSS is the artist's palette of the web. It infuses aesthetics, animation, and responsiveness, ensuring that every pixel aligns with the creator's vision.",
-        // ... more lines
+        "CSS adds the style and structure to a webpage, making sure the layout looks clean, responsive, and aligned with the design goals."
         ],
     codeCardData: {
         language: "css",
@@ -61,16 +59,15 @@ async function fetchData(url) {
     },
     textCardData: {
         icon: PiPaintBrushLight,
-        title: "The Gradient Button with Interactive Lure",
-        text: "Featuring a seamless gradient transition from blue to purple, this button design captures attention. Its interactive essence is highlighted by a subtle expansion upon hovering, showcasing how CSS can bring life and motion to web designs.",
+        title: "The Gradient Button",
+        text: "A gradient transition from blue to purple and a hover-induced scale effect give this button a visually appealing and interactive quality, showcasing how CSS can add subtle yet effective animations."
         },
 },
 {
     index:3,
     title: "Node",
     introText: [
-        "Node expands JavaScript's realm beyond browsers, bridging the gap between frontend and backend. Its event-driven architecture ensures efficient data handling, making real-time applications, like chatbots and online games, a reality.",
-        // ... more lines
+        "Node.js extends JavaScript's capabilities to the server side, allowing seamless interaction between the frontend and backend. Its event-driven model supports efficient data processing, ideal for real-time applications."
         ],
     codeCardData: {
         language: "javascript",
@@ -101,17 +98,14 @@ app.listen(3000, () => {
     textCardData: {
         icon: VscServerProcess,
         title: "Rate Limiter Middleware",
-        text: "Showcasing a basic but essential server safeguard, this script uses Express to limit users to five requests. Exceeding this limit triggers an HTTP 429 status, a proactive step towards ensuring server health and mitigating overuse risks.",
+        text: "Showcasing a basic but essential server safeguard, this script uses Express to limit users to five requests. Exceeding this limit triggers an HTTP 429 status, a proactive step towards ensuring server health and mitigating overuse risks."
         },
     },
 {
     index:4,
     title: "React",
     introText: [
-        "In the pursuit of seamless user experiences, React emerges as a game-changer. With its component-based architecture, it ensures efficient updates and rendering, making single-page feel smoother than ever.",
-        "",
-        ""
-        // ... more lines
+        "React's component-based structure simplifies the process of building interactive user interfaces, allowing for efficient updates and rendering, which helps create smooth single-page applications."
         ],
     codeCardData: {
         language: "javascript",
@@ -140,7 +134,7 @@ export default ThemeButton;
     textCardData: {
         icon: SiReactquery,
         title: "Toggle Theme Button",
-        text: "A prime example of React's reactive capabilities, this theme toggle component cleverly utilises the useState hook. It allows for a swift and smooth transition between light and dark themes, reflecting the dynamic nature of state management in React.",
+        text: "A prime example of React's capabilities, this theme toggle component which utilises the useState hook. It allows for a quick and smooth transition between light and dark themes, reflecting the dynamic nature of state management in React."
     },
 },
 ]
@@ -149,8 +143,7 @@ const appDevelopment = [
 {
     index:1,
     introText: [
-        "Desktop Engineering is where timeless legacies are built. Leveraging the strengths of various programming languages, we create applications that aren’t just functional, but are cornerstones in the user's daily digital journey.",
-        // ... more lines
+        "Desktop Engineering focuses on building reliable applications using various programming languages, ensuring they provide users with stable and efficient applications."
         ],
     codeCardData: {
         language: "python",
@@ -169,16 +162,15 @@ print(fibonacci(10))
     },
     textCardData: {
         icon: BsJournalCode,
-        title: "Fibonacci Series with Memoization in Python",
-        text: "By incorporating memoization, this Python function for calculating the Fibonacci sequence exemplifies high-performance computing. It minimises computational overhead by remembering past results, making the recursive process much faster and more efficient.",
+        title: "Fibonacci with Memoization in Python",
+        text: "By incorporating memoization, this Python function for calculating the Fibonacci sequence demonstrates high-performance computing. It minimises computational overhead by remembering past results, making the recursive process much faster and more efficient."
     },
 },
 {
     index:2,
     title: "C++",
     introText: [
-        "Charting the course of modern computational solutions, C++ boasts a legacy that is rooted in performance and scalability. With its dual embrace of low-level hardware access and high-level design patterns, it serves as the cornerstone for countless software systems.",
-        // ... more lines
+        "Known for its efficiency, C++ combines low-level hardware access with high-level design features, making it ideal for building scalable and high-performance software."
         ],
     codeCardData: {
         language: "cpp",
@@ -204,15 +196,14 @@ int main() {
     textCardData: {
         icon: TbCodeDots,
         title: "Smart Pointer Usage",
-        text: "The implementation of 'std::unique_ptr' in this example highlights the modern approach to memory management in C++. It showcases how smart pointers ensure automatic and secure resource deallocation, embodying best practices in contemporary C++ coding.",
+        text: "The implementation of 'std::unique_ptr' in this example highlights the approach to memory management in C++. It shows how smart pointers ensure automatic and secure resource deallocation."
     },
 },
 {
     index:3,
     title: "C#",
     introText: [
-        "Amidst the diverse tapestry of programming languages, C# stands out for its streamlined development and robustness. Integrated with the .NET ecosystem, it champions versatile applications while emphasising code clarity and maintainability.",
-        // ... more lines
+        "As part of the .NET ecosystem, C# simplifies development with its strong support for clarity and maintainability, making it a great choice for building a wide range of applications."
         ],
     codeCardData: {
         language: "csharp",
@@ -237,16 +228,15 @@ public class WebService {
     },
     textCardData: {
         icon: TbDeviceIpadHorizontalCode,
-        title: "Asynchronous Programming with async and await",
-        text: "The use of 'async' and 'await' in this C# code for fetching web data highlights a sophisticated approach to handling network operations. It's a perfect blend of maintaining application responsiveness and efficient data processing, critical for modern software development.",
+        title: "Asynchronous Programming",
+        text: "The use of 'async' and 'await' in this C# code for fetching web data highlights a smooth approach to handling network operations. It's a perfect combination of responsiveness and efficient data processing."
     },
 },
 {
     index:4,
     title: "SQL",
     introText: [
-        "As data becomes the heartbeat of modern enterprises, SQL stands as its interpreter. Harnessing the power of relational databases, SQL transforms raw data into meaningful narratives, enabling informed business strategies.",
-        // ... more lines
+        "SQL provides the tools to efficiently manage and analyze data in relational databases, making it easier for businesses to extract valuable information for strategic planning."
         ],
     codeCardData: {
         language: "sql",
@@ -266,7 +256,7 @@ FROM
     textCardData: {
         icon: BsDatabaseCheck,
         title: "Window Functions and Ranking",
-        text: "Employing the 'RANK()' window function within department-based partitions, this SQL query masterfully ranks employees by salary. It’s a clear example of how to leverage SQL for detailed, context-rich analysis, providing valuable insights into organisational salary structures.",
+        text: "Employing the 'RANK()' window function within department-based partitions, this SQL query successfully ranks employees by salary. It’s a clear example of how to leverage SQL for detailed analysis, providing valuable insights."
     },
 },
 ]

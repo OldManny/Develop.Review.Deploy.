@@ -1,9 +1,8 @@
 import React from 'react';
-import { aboutMe, tech, workExperience, education, transferableSkills, hobbies } from './aboutData';
-import { mapAboutMeData, mapTechData, mapWorkExperienceData, mapEducationData, mapTransferableSkills, mapHobbiesData } from './aboutDataMapper';
+import { aboutMe, tech, education, transferableSkills, hobbies } from './aboutData';
+import { mapAboutMeData, mapTechData, mapEducationData, mapTransferableSkills, mapHobbiesData } from './aboutDataMapper';
 import SectionHeader from './SectionHeader';
 import { BsPerson } from "react-icons/bs";  
-import { MdOutlineWorkOutline } from "react-icons/md";
 import { LiaGraduationCapSolid } from "react-icons/lia";
 import { BiTransfer } from "react-icons/bi";
 import { GiCircleForest } from "react-icons/gi";
@@ -35,14 +34,6 @@ const MainCard = ({ className }) => {
                 {/* Education */}
                 <div>
                     {mapEducationData(education)}
-                </div>
-
-                {/* Experience */}
-                <SectionHeader className="mt-16" title="Work Experience" icon={<MdOutlineWorkOutline size={39} />} />
-
-                {/* Work Experience */}
-                <div>
-                    {mapWorkExperienceData(workExperience)}
                 </div>
 
                 {/* Experience */}

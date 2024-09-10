@@ -2,7 +2,7 @@ import "/styles/global.css";
 import Header from "/components/Header/Header";
 import Footer from '/components/Footer/Footer';
 import Providers from "./providers";
-import Head from 'next/head'; // Import the Head component
+import Head from 'next/head';
 
 export const metadata = {
   title: "Develop. Review. Deploy.",

@@ -7,7 +7,7 @@ const Title = () => {
             <TitleColor />
             <div className="text-center text-sm md:text-base text-slate-500 dark:text-slate-400 dark:mt-28 md:dark:mt-52 mt-20 md:mt-9">
                 <h3 className="font-semibold max-w-3xl">
-                    <span className="block italic">With each function I define, I tell a story and as a developer, I'm not just an architect; I'm a storyteller, chronicling the digital age one line at a time.</span>
+                    <span className="block italic">As an emerging software engineer, I translate ideas into functional code. My work focuses on building clean and efficient solutions that contribute to impactful digital projects.</span>
                 </h3>
             </div>
         </div>

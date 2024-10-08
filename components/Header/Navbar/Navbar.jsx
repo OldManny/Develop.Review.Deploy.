@@ -52,8 +52,7 @@ const Navbar = () => {
         name: "Portfolio",
         url: "/",
         dropdown: [
-            { name: "Coming Soon", url: "" },
-            { name: "...", url: "" },
+            { name: "Snaze", url: "https://snaze.vercel.app/" },
         ],
       },
       { name: "About", url: "./about" },

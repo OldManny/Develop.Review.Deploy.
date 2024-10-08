@@ -44,22 +44,22 @@ This portfolio website serves as an online resume and project showcase. The webs
 ## Screenshots
 
 ### Home Page with Night Mode On (rest of the screenshots has Light Mode On)
-![Home Page](https://i.postimg.cc/FKSK9Xgk/Screenshot-2024-05-25-at-13-23-17.png)
+![Home Page](images/DarkModeHeader.png)
 
 ### CSS Example
-![CSS Example](https://i.postimg.cc/TwxbfgCM/Screenshot-2024-05-25-at-11-54-35.png)
+![CSS Example](images/CSSExample.png)
 
 ### Desktop Engineering
-![Python Example](https://i.postimg.cc/jqptS79C/Screenshot-2024-05-25-at-11-54-50.png)
+![Python Example](images/DesktopEngineering.png)
 
 ### Footer
-![Footer](https://i.postimg.cc/sD5yQ2dm/Screenshot-2024-05-25-at-11-55-12.png)
+![Footer](images/Footer.png)
 
 ### About Page
-![About Page](https://i.postimg.cc/qvLTwZ7C/Screenshot-2024-05-25-at-11-55-51.png)
+![About Page](images/About.png)
 
 ### Contact Section
-![Contact Section](https://i.postimg.cc/1z3Zjcg7/Screenshot-2024-05-25-at-11-56-11.png)
+![Contact Section](images/Contact.png)
 
 
 ## Header Images
